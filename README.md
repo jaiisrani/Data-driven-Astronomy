@@ -31,8 +31,8 @@ https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20cat
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20catalogues/super.png 
 
 A point on the celestial sphere is given by two coordinates:\
-Right ascension: the angle from the vernal equinox to the point, going east along the celestial equator;\
-Declination: the angle from the celestial equator to the point, going north (negative values indicate going south).\
+-Right ascension: the angle from the vernal equinox to the point, going east along the celestial equator;\
+-Declination: the angle from the celestial equator to the point, going north (negative values indicate going south).\
 The vernal equinox is the intersection of the celestial equator and the ecliptic where the ecliptic rises above the celestial equator going further east.\
 Right ascension is often given in hours-minutes-seconds (HMS) notation, because it was convenient to calculate when a star would appear over the horizon. A full circle in HMS notation is 24 hours, which means 1 hour in HMS notation is equal to 15 degrees. Each hour is split into 60 minutes and each minute into 60 seconds.\
 Declination, on the other hand, is traditionally recorded in degrees-minutes-seconds (DMS) notation. A full circle is 360 degrees, each degree has 60 arcminutes and each arcminute has 60 arcseconds.\
