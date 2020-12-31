@@ -25,7 +25,7 @@ BSS: http://cdsarc.u-strasbg.fr/viz-bin/Cat?J/MNRAS/384/775 \
 SuperCOSMOS: http://ssa.roe.ac.uk/allSky \
 This is how the BSS data looks like: \
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20catalogues/bss.dat \
-https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20catalogues/bss.png
+https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20catalogues/bss.png \
 This is how the SuperCOSMOS data looks like: \
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20catalogues/super.csv \
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20catalogues/super.png 
