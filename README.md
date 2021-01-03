@@ -72,6 +72,9 @@ Colour-Colour-Redshift scatter plot:\
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20galaxy%20distance%20estimation%20from%20redshifts%20using%20regression/color-color_redshift_plot.py
 
 ## Activity 4
+Some useful links: \
+http://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp \
+http://spiff.rit.edu/classes/phys443/lectures/gal_1/petro/petro.html \
 In this activity, we will be using machine learning to classify galaxies into three types (ellipticals, spirals or galactic mergers) based on their observed properties. For our machine learning experiments, we are using the crowd-classified classes from Galaxy Zoo as the training data for our automatic decision tree classifier. We'll start by looking at how classification differs from regression. We will then implement some of the new features and parameters that we will use to reduce the dimensionality of the problem. We will also show you how to measure accuracy for classification problems, before extending our classifier to use random forests. \
 Here's the dataset: \
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20identifying%20galaxy-type%20using%20classification/galaxy-type%20dataset/galaxy_catalogue.npy?raw=true \
@@ -99,7 +102,9 @@ The sklearn random forest only uses the first form of sampling.
 Your task here is to complete the rf_predict_actual function. It returns the predicted and actual classes for our galaxies using a random forest 10-fold with cross validation:\
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20identifying%20galaxy-type%20using%20classification/RandomForestClassifier.py
 
-
+## Activity 5
+This activity is about handling databases and learning basic SQL commands.\
+https://github.com/jaiisrani/Data-driven-Astronomy/tree/main/SQL
 
 
 
