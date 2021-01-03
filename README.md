@@ -67,7 +67,7 @@ Instead, we can calculate the redshift by measuring the flux using a number of d
 Here is our predictions: \
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20galaxy%20distance%20estimation%20from%20redshifts%20using%20regression/DecisionTreeRegressor.py \
 Validating our model using median-difference error: \
-https://github.com/jaiisrani/Data-driven- Astronomy/blob/main/ML%20for%20galaxy%20distance%20estimation%20from%20redshifts%20using%20regression/dtr%20Validation.py \
+https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20galaxy%20distance%20estimation%20from%20redshifts%20using%20regression/dtr%20Validation.py \
 Colour-Colour-Redshift scatter plot:\
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20galaxy%20distance%20estimation%20from%20redshifts%20using%20regression/color-color_redshift_plot.py
 
