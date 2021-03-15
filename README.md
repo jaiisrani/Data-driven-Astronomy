@@ -1,7 +1,7 @@
 # Data-driven-Astronomy
 This repo contains all the data-analysis techniques used in Astronomy that I have learnt. 
 
-## Activity 1: Detecting Quasars in FITS files
+## Activity 1: Detecting Quasars 
 Some useful links: \
 https://docs.astropy.org/en/stable/index.html# \
 https://matplotlib.org \
