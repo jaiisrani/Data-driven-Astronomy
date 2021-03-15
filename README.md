@@ -104,6 +104,7 @@ https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20identify
 
 ## Activity 5: SQL
 This activity is about handling databases and learning basic SQL commands.\
+This has umpteen applications, one of that I have demonstrated being exoplanet-classification.\
 https://github.com/jaiisrani/Data-driven-Astronomy/tree/main/SQL
 
 
