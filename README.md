@@ -1,7 +1,7 @@
 # Data-driven-Astronomy
 This repo contains all the data-analysis techniques used in Astronomy that I have learnt. 
 
-## Activity 1
+## Activity 1: Detecting Quasars in FITS files
 Some useful links: \
 https://docs.astropy.org/en/stable/index.html# \
 https://matplotlib.org \
@@ -22,7 +22,7 @@ Here's a time_stat function to time our statistic implementations. time_stat sho
 
 Write a median_fits function which takes a list of FITS filenames, loads them into a NumPy array, and calculates the median image (where each pixel is the median of that pixel over every FITS file). Your function should return a tuple of the median NumPy array, the time it took the function to run, and the amount of memory (in kB) used to store all the FITS files in the NumPy array in memory. The running time should include loading the FITS files and calculating the median.
 
-## Activity 2
+## Activity 2: Inter-galactic distances
 When investigating astronomical objects, like active galactic nuclei (AGN), astronomers compare data about those objects from different telescopes at different wavelengths. This requires positional cross-matching to find the closest counterpart within a given radius on the sky. In this activity you'll cross-match two catalogues: one from a radio survey, the AT20G Bright Source Sample (BSS) catalogue and one from an optical survey, the SuperCOSMOS all-sky galaxy catalogue.
 The BSS catalogue lists the brightest sources from the AT20G radio survey while the SuperCOSMOS catalogue lists galaxies observed by visible light surveys. If we can find an optical match for our radio source, we are one step closer to working out what kind of object it is, e.g. a galaxy in the local Universe or a distant quasar.\
 BSS: http://cdsarc.u-strasbg.fr/viz-bin/Cat?J/MNRAS/384/775 \
@@ -55,7 +55,7 @@ https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20cat
 
 Write a crossmatch function that crossmatches two catalogues within a maximum distance. It should return a list of matches and non-matches for the first catalogue against the second. The list of matches contains tuples of the first and second catalogue object IDs and their distance. The list of non-matches contains the unmatched object IDs from the first catalogue only. Both lists should be ordered by the first catalogue's IDs. The BSS and SuperCOSMOS catalogues will be given as input arguments, each in the format you’ve seen previously. The maximum distance is given in decimal degrees.\ https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/crossmatching%20catalogues/crossmatching_algo.py
 
-## Activity 3
+## Activity 3: Estimating Galaxy-Redshifts
 In this activity, we're going to use decision trees to determine the redshifts of galaxies from their photometric colours. We'll use galaxies where accurate spectroscopic redshifts have been calculated as our gold standard. We will learn how to assess the accuracy of the decision trees predictions and have a look at validation of our model.\
 You can download the full NumPy dataset for this activity here: \
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20galaxy%20distance%20estimation%20from%20redshifts%20using%20regression/redhift%20dataset/sdss_galaxy_colors.npy?raw=true
@@ -71,7 +71,7 @@ https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20galaxy%2
 Colour-Colour-Redshift scatter plot:\
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20galaxy%20distance%20estimation%20from%20redshifts%20using%20regression/color-color_redshift_plot.py
 
-## Activity 4
+## Activity 4: Galaxy Classification
 Some useful links: \
 http://skyserver.sdss.org/dr7/en/help/docs/algorithm.asp \
 http://spiff.rit.edu/classes/phys443/lectures/gal_1/petro/petro.html \
@@ -102,7 +102,7 @@ The sklearn random forest only uses the first form of sampling.
 Your task here is to complete the rf_predict_actual function. It returns the predicted and actual classes for our galaxies using a random forest 10-fold with cross validation:\
 https://github.com/jaiisrani/Data-driven-Astronomy/blob/main/ML%20for%20identifying%20galaxy-type%20using%20classification/RandomForestClassifier.py
 
-## Activity 5
+## Activity 5: SQL
 This activity is about handling databases and learning basic SQL commands.\
 https://github.com/jaiisrani/Data-driven-Astronomy/tree/main/SQL
 
